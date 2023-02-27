@@ -1,0 +1,374 @@
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SPM/
+        Screenshot 2022-12-19 080349.png
+        Screenshot 2022-12-19 080356.jpg
+        Screenshot 2022-12-19 084247.png
+        git direct push command.jpg
+        my-first-project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab (main)
+$ cd spm
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SPM/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm (main)
+$ git pull
+Already up to date.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm (main)
+$ cd spm
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 663 bytes | 73.00 KiB/s, done.
+From https://github.com/vishwajeetsharma09/SPM
+   981ad82..746a5e1  main       -> origin/main
+Updating 981ad82..746a5e1
+Fast-forward
+ t1.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -vv
+* main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch KLU
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -vv
+  KLU  746a5e1 Update t1.txt
+* main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git checkout KLU
+Switched to branch 'KLU'
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git branch -vv
+* KLU  746a5e1 Update t1.txt
+  main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ notepad.txt
+bash: notepad.txt: command not found
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ notepad m2.txt
+
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git add .
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git commit -m "inital"
+[KLU 3d80b30] inital
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 m2.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git chackout main
+git: 'chackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git brach -vv
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git branch -vv
+* KLU  3d80b30 inital
+  main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -vv
+  KLU  3d80b30 inital
+* main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push https://github.com/vishwajeetsharma09/SPM.git
+Everything up-to-date
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git checkou KLU
+git: 'checkou' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git checkout KLU
+Switched to branch 'KLU'
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git push
+fatal: The current branch KLU has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin KLU
+
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git push -f klu
+fatal: 'klu' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git push -f KLU
+fatal: 'KLU' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git push origin -f KLU
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 273 bytes | 273.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'KLU' on GitHub by visiting:
+remote:      https://github.com/vishwajeetsharma09/SPM/pull/new/KLU
+remote:
+To https://github.com/vishwajeetsharma09/SPM.git
+ * [new branch]      KLU -> KLU
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git branch -vv
+* KLU  3d80b30 inital
+  main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch KLu1
+
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -vv
+  KLU  3d80b30 inital
+  KLu1 746a5e1 Update t1.txt
+* main 746a5e1 [origin/main] Update t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ gi checkout KLU
+bash: gi: command not found
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git checkout KLU
+Switched to branch 'KLU'
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ ls
+m2.txt  t1.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ notepad m3.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git add .
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git commit -m "intial"
+[KLU b3ae837] intial
+ 1 file changed, 1 insertion(+)
+ create mode 100644 m3.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (KLU)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git merge KLU
+Updating 746a5e1..b3ae837
+Fast-forward
+ m2.txt | 0
+ m3.txt | 1 +
+ 2 files changed, 1 insertion(+)
+ create mode 100644 m2.txt
+ create mode 100644 m3.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch klu1
+fatal: a branch named 'klu1' already exists
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git checkout klu1
+Switched to branch 'klu1'
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (klu1)
+$ notepad m3.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (klu1)
+$ git add .
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (klu1)
+$ git commit -m "intial"
+[klu1 901b2aa] intial
+ 1 file changed, 1 insertion(+)
+ create mode 100644 m3.txt
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (klu1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git merge
+Already up to date.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git merge
+Already up to date.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git merge klu1
+Auto-merging m3.txt
+CONFLICT (add/add): Merge conflict in m3.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main|MERGING)
+$ git add .
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main|MERGING)
+$ git commit -m "intial"
+[main 7b9802f] intial
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git merger klu1
+git: 'merger' is not a git command. See 'git --help'.
+
+The most similar command is
+        merge
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git merge klu1
+Already up to date.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push -u origin
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 972 bytes | 486.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vishwajeetsharma09/SPM.git
+   746a5e1..7b9802f  main -> main
+branch 'main' set up to track 'origin/main'.
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push origin -f main
+Everything up-to-date
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push origin -f klu1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'klu1' on GitHub by visiting:
+remote:      https://github.com/vishwajeetsharma09/SPM/pull/new/klu1
+remote:
+To https://github.com/vishwajeetsharma09/SPM.git
+ * [new branch]      klu1 -> klu1
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -D klu1
+Deleted branch klu1 (was 901b2aa).
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -D KLu
+Deleted branch KLu (was b3ae837).
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -vv
+* main 7b9802f [origin/main] intial
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push origin --delete KLU
+To https://github.com/vishwajeetsharma09/SPM.git
+ - [deleted]         KLU
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push origin --delete kl1
+error: unable to delete 'kl1': remote ref does not exist
+error: failed to push some refs to 'https://github.com/vishwajeetsharma09/SPM.git'
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git push origin --delete klu1
+To https://github.com/vishwajeetsharma09/SPM.git
+ - [deleted]         klu1
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ git branch -v
+* main 7b9802f intial
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$ pwd -w
+bash: pwd: -w: invalid option
+pwd: usage: pwd [-LPW]
+
+LENOVO@Vishwajeetsharma MINGW64 /b/git cmd and gitlab/spm/spm (main)
+$
